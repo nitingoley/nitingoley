@@ -6,7 +6,7 @@
 
 - 🔭 I’m currently doing B.Tech **from Invertis University**
 
-- 🌱 I’m currently learning **AWS ,Nest.js**
+- 🌱 I’m currently learning **React Native ,Nest.js**
 
 - 💬 Ask me about **A motivated Backend Developer Intern seeking to utilize my technical knowledge and problem-solving skills to create successful implementations and high-quality solutions that address real-world business needs and improve customer experience. Aiming to contribute my initiative and dedication to achieving organizational objectives and making a positive impact.**
 
