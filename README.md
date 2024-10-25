@@ -1,6 +1,3 @@
-Here’s your profile updated with **Golang Gin** and **Docker** as additional tools:
-
----
 
 <h4>Hey there! <img src="https://raw.githubusercontent.com/verma-anushka/verma-anushka/master/gifs/wave.gif" width="30px"></h4>
 
@@ -23,11 +20,25 @@ I'm [Nitin Goley](https://linkedin.com/in/nitingoley42), a dedicated MERN stack 
 
 **Languages and Tools:**
 
-<p align="center">
+ <p align="center">
   <div align="center">
-    <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code> <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code> <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png"></code> <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code> <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"></code> <code><img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"></code> <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code> <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"></code> <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"></code> <code><img height="40" src="https://raw.githubusercontent.com/github/explore/836af3ea3685d4b2aaf49848e457f4d54d9f8f97/topics/docker/docker.png"></code> <code><img height="40" src="https://raw.githubusercontent.com/github/explore/975a66dbdd563b52018e91f939d09cfc55a77d23/topics/go/go.png"></code> <code><img height="40" src="https://raw.githubusercontent.com/github/explore/836af3ea3685d4b2aaf49848e457f4d54d9f8f97/topics/gin/gin.png"></code> <code><img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/heroku/heroku-plain.svg"></code> <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png"></code>
+    <code><img height="40" src="https://raw.githubusercontent.com/github/explore/main/topics/html/html.png"></code> 
+    <code><img height="40" src="https://raw.githubusercontent.com/github/explore/main/topics/css/css.png"></code> 
+    <code><img height="40" src="https://raw.githubusercontent.com/github/explore/main/topics/bootstrap/bootstrap.png"></code> 
+    <code><img height="40" src="https://raw.githubusercontent.com/github/explore/main/topics/javascript/javascript.png"></code> 
+    <code><img height="40" src="https://raw.githubusercontent.com/github/explore/main/topics/typescript/typescript.png"></code> 
+    <code><img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"></code> 
+    <code><img height="40" src="https://raw.githubusercontent.com/github/explore/main/topics/nodejs/nodejs.png"></code> 
+    <code><img height="40" src="https://raw.githubusercontent.com/github/explore/main/topics/mongodb/mongodb.png"></code> 
+    <code><img height="40" src="https://raw.githubusercontent.com/github/explore/main/topics/mysql/mysql.png"></code> 
+    <code><img height="40" src="https://raw.githubusercontent.com/github/explore/main/topics/docker/docker.png"></code> 
+    <code><img height="40" src="https://raw.githubusercontent.com/github/explore/main/topics/go/go.png"></code> 
+    <code><img height="40" src="https://raw.githubusercontent.com/github/explore/main/topics/gin/gin.png"></code> 
+    <code><img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/heroku/heroku-plain.svg"></code> 
+    <code><img height="40" src="https://raw.githubusercontent.com/github/explore/main/topics/terminal/terminal.png"></code>
   </div>
 </p>
+
 
 ---
 
