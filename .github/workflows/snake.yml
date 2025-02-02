@@ -1,4 +1,4 @@
-name: GitHub Snake Animation
+name: Custom Animation
 
 on:
   schedule:
@@ -16,28 +16,34 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
         
-      - name: Create Animated Snake GIF
+      - name: Create Custom Animated GIF
         run: |
           # Install necessary tools
           sudo apt-get update
           sudo apt-get install -y imagemagick gifsicle
 
-          # Generate a random snake animation (just a placeholder here)
-          convert -size 200x200 xc:black -gravity center -pointsize 20 -fill white -annotate 0 '🐍 Snake' /tmp/snake.gif
+          # Generate a series of images with custom text for the animation
+          convert -size 200x200 xc:white -gravity center -pointsize 30 -fill blue -annotate 0 'Custom Animation' /tmp/frame1.png
+          convert -size 200x200 xc:white -gravity center -pointsize 30 -fill red -annotate 0 'Animation' /tmp/frame2.png
+          convert -size 200x200 xc:white -gravity center -pointsize 30 -fill green -annotate 0 'GIF' /tmp/frame3.png
+          convert -size 200x200 xc:white -gravity center -pointsize 30 -fill purple -annotate 0 'Example' /tmp/frame4.png
 
-          # Optionally, optimize the GIF using gifsicle
-          gifsicle -O3 /tmp/snake.gif -o /tmp/snake-optimized.gif
+          # Create an animated GIF from the images
+          convert -delay 100 -loop 0 /tmp/frame1.png /tmp/frame2.png /tmp/frame3.png /tmp/frame4.png /tmp/animated.gif
+
+          # Optimize the GIF using gifsicle
+          gifsicle -O3 /tmp/animated.gif -o /tmp/animated-optimized.gif
 
           # Create dist directory if it doesn't exist
           mkdir -p dist
 
           # Move the optimized GIF to the dist folder
-          mv /tmp/snake-optimized.gif dist/github-snake.gif
+          mv /tmp/animated-optimized.gif dist/custom-animation.gif
 
-      - name: Deploy Snake GIF to Output Branch
+      - name: Deploy Custom Animation to Output Branch
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: output
-          commit_message: "Update snake animation [skip ci]"
+          commit_message: "Update custom animation [skip ci]"
