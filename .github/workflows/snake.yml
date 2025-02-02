@@ -1,4 +1,4 @@
-name: GitHub Snake Game
+name: GitHub Snake Animation
 
 on:
   schedule:
@@ -16,21 +16,26 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
         
-      - name: Generate GitHub Contributions Snake Animations
-        uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
-      - name: Deploy to Output Branch
+      - name: Create Animated Snake GIF
+        run: |
+          # Install necessary tools
+          sudo apt-get update
+          sudo apt-get install -y imagemagick gifsicle
+
+          # Generate a random snake animation (just a placeholder here)
+          convert -size 200x200 xc:black -gravity center -pointsize 20 -fill white -annotate 0 '🐍 Snake' /tmp/snake.gif
+
+          # Optionally, optimize the GIF using gifsicle
+          gifsicle -O3 /tmp/snake.gif -o /tmp/snake-optimized.gif
+
+          # Move it to the dist folder
+          mv /tmp/snake-optimized.gif dist/github-snake.gif
+
+      - name: Deploy Snake GIF to Output Branch
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: output
           commit_message: "Update snake animation [skip ci]"
+
