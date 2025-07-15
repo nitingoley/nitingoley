@@ -5,7 +5,7 @@
   <a href="https://github.com/nitingoley">
     <img src="https://komarev.com/ghpvc/?username=nitingoley&label=Profile%20views&color=0e75b6&style=flat" alt="nitingoley" />
   </a>
-  <a href="https://linkedin.com/in/nitingoley42" target="_blank">
+  <a href="https://linkedin.com/in/nit" target="_blank">
     <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&style=flat&link=https://linkedin.com/in/nitingoley42" />
   </a>
   <a href="mailto:nitingoley42@gmail.com">
