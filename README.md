@@ -63,7 +63,7 @@
 
 ### 📫 Let's Connect
 
-- 🌐 [LinkedIn](https://linkedin.com/in/nitingoley42)
+- 🌐 [LinkedIn](https://linkedin.com/in/ni2)
 - 📬 Email: **nitingoley42@gmail.com**
 
 ---
